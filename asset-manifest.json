@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cat-web-v1/static/css/main.97b2167e.css",
-    "main.js": "/cat-web-v1/static/js/main.848d0528.js",
+    "main.js": "/cat-web-v1/static/js/main.bb3ab7e8.js",
     "static/media/bg.png": "/cat-web-v1/static/media/bg.faf5d7c76590bd13ad93.png",
     "static/media/2.png": "/cat-web-v1/static/media/2.f9ca8e3dadd7140004c8.png",
     "static/media/Rectangle 14.png": "/cat-web-v1/static/media/Rectangle 14.7a8f2d40a2b6f1132f85.png",
@@ -47,10 +47,10 @@
     "static/media/singapura-1.jpg": "/cat-web-v1/static/media/singapura-1.6456feec23b65dc07613.jpg",
     "index.html": "/cat-web-v1/index.html",
     "main.97b2167e.css.map": "/cat-web-v1/static/css/main.97b2167e.css.map",
-    "main.848d0528.js.map": "/cat-web-v1/static/js/main.848d0528.js.map"
+    "main.bb3ab7e8.js.map": "/cat-web-v1/static/js/main.bb3ab7e8.js.map"
   },
   "entrypoints": [
     "static/css/main.97b2167e.css",
-    "static/js/main.848d0528.js"
+    "static/js/main.bb3ab7e8.js"
   ]
 }
