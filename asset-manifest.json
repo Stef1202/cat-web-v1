@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cat-web-v1/static/css/main.97b2167e.css",
-    "main.js": "/cat-web-v1/static/js/main.848d0528.js",
+    "main.css": "/cat-web-v1/static/css/main.94eb03d7.css",
+    "main.js": "/cat-web-v1/static/js/main.67cf8ae3.js",
     "static/media/bg.png": "/cat-web-v1/static/media/bg.faf5d7c76590bd13ad93.png",
     "static/media/2.png": "/cat-web-v1/static/media/2.f9ca8e3dadd7140004c8.png",
     "static/media/Rectangle 14.png": "/cat-web-v1/static/media/Rectangle 14.7a8f2d40a2b6f1132f85.png",
@@ -15,6 +15,7 @@
     "static/media/Rectangle 10.png": "/cat-web-v1/static/media/Rectangle 10.d8199173c1ec489bcaa2.png",
     "static/media/Rectangle 12.png": "/cat-web-v1/static/media/Rectangle 12.d33a88aab768b19fe154.png",
     "static/media/Rectangle 11.png": "/cat-web-v1/static/media/Rectangle 11.fc93e3ea110bdba4729e.png",
+    "static/media/profile.jpg": "/cat-web-v1/static/media/profile.05525aca4499fdf83e22.jpg",
     "static/media/maine-coon-1.jpg": "/cat-web-v1/static/media/maine-coon-1.4256e2da5bf6906df382.jpg",
     "static/media/ocicat-1.jpg": "/cat-web-v1/static/media/ocicat-1.b220f98c28de5a72311d.jpg",
     "static/media/bengal-1.jpg": "/cat-web-v1/static/media/bengal-1.9327007b94555f2fb81c.jpg",
@@ -46,11 +47,11 @@
     "static/media/cornish-rex-1.jpg": "/cat-web-v1/static/media/cornish-rex-1.54dcdc0cd2e4712e062e.jpg",
     "static/media/singapura-1.jpg": "/cat-web-v1/static/media/singapura-1.6456feec23b65dc07613.jpg",
     "index.html": "/cat-web-v1/index.html",
-    "main.97b2167e.css.map": "/cat-web-v1/static/css/main.97b2167e.css.map",
-    "main.848d0528.js.map": "/cat-web-v1/static/js/main.848d0528.js.map"
+    "main.94eb03d7.css.map": "/cat-web-v1/static/css/main.94eb03d7.css.map",
+    "main.67cf8ae3.js.map": "/cat-web-v1/static/js/main.67cf8ae3.js.map"
   },
   "entrypoints": [
-    "static/css/main.97b2167e.css",
-    "static/js/main.848d0528.js"
+    "static/css/main.94eb03d7.css",
+    "static/js/main.67cf8ae3.js"
   ]
 }
