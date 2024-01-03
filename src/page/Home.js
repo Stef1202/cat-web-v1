@@ -19,40 +19,41 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 import Masonry from '@mui/lab/Masonry';
 import Footer from '../component/Footer';
 
+
 const Catbreeds = [
-  { img: "abyssinian-1.jpg", name: "Abyssinian" },
-  { img: "american-shorthair-1.jpg", name: "American Short Hair" },
-  { img: "bengal-1.jpg", name: "Bengal" },
-  { img: "british-shorthair-1.jpg", name: "British Short Hair" },
-  { img: "cornish-rex-1.jpg", name: "Cornish Rex" },
-  { img: "devon-rex-1.jpg", name: "Devon Rex" },
-  { img: "exotic-shorthair-1.jpg", name: "Exotic Short Hair" },
-  { img: "maine-coon-1.jpg", name: "Main Coone" },
-  { img: "norwegian-forest-cat-1.jpg", name: "Norwegian Forest Cat" },
-  { img: "oriental-shorthair-1.jpg", name: "Oriental Short Hair" },
-  { img: "persian-cat-1.jpg", name: "Persian" },
-  { img: "ragdoll-1.jpg", name: "Ragdoll" },
-  { img: "scottish-fold-1.jpg", name: "Scottish Fold" },
-  { img: "siamese-1.jpg", name: "Siamese" },
-  { img: "sphynx-1.jpg", name: "Sphynx" },
+  { img: "abyssinian-1.jpg", name: "Abyssinian", link: "https://www.catbreedslist.com/all-cat-breeds/abyssinian.html" },
+  { img: "american-shorthair-1.jpg", name: "American Short Hair", link: "https://www.catbreedslist.com/all-cat-breeds/american-shorthair.html" },
+  { img: "bengal-1.jpg", name: "Bengal", link: "https://www.catbreedslist.com/all-cat-breeds/bengal.html" },
+  { img: "british-shorthair-1.jpg", name: "British Short Hair", link: "https://www.catbreedslist.com/all-cat-breeds/british-shorthair.html" },
+  { img: "cornish-rex-1.jpg", name: "Cornish Rex", link: "https://www.catbreedslist.com/all-cat-breeds/cornish-rex.html" },
+  { img: "devon-rex-1.jpg", name: "Devon Rex", link: "https://www.catbreedslist.com/all-cat-breeds/devon-rex.html" },
+  { img: "exotic-shorthair-1.jpg", name: "Exotic Short Hair", link: "https://www.catbreedslist.com/all-cat-breeds/exotic-shorthair.html" },
+  { img: "maine-coon-1.jpg", name: "Main Coone", link: "https://www.catbreedslist.com/all-cat-breeds/maine-coon.html" },
+  { img: "norwegian-forest-cat-1.jpg", name: "Norwegian Forest Cat", link: "https://www.catbreedslist.com/all-cat-breeds/norwegian-forest-cat.html" },
+  { img: "oriental-shorthair-1.jpg", name: "Oriental Short Hair", link: "https://www.catbreedslist.com/all-cat-breeds/oriental-shorthair.html" },
+  { img: "persian-cat-1.jpg", name: "Persian", link: "https://www.catbreedslist.com/all-cat-breeds/persian-cat.html" },
+  { img: "ragdoll-1.jpg", name: "Ragdoll", link: "https://www.catbreedslist.com/all-cat-breeds/ragdoll.html" },
+  { img: "scottish-fold-1.jpg", name: "Scottish Fold", link: "https://www.catbreedslist.com/all-cat-breeds/scottish-fold.html" },
+  { img: "siamese-1.jpg", name: "Siamese", link: "https://www.catbreedslist.com/all-cat-breeds/siamese.html" },
+  { img: "sphynx-1.jpg", name: "Sphynx", link: "https://www.catbreedslist.com/all-cat-breeds/sphynx.html" },
 ]
 
 const CatbreedsMore = [
-  { img: "russian-blue-1.jpg", name: "Russian Blue" },
-  { img: "siberian-1.jpg", name: "Siberian" },
-  { img: "burmese-1.jpg", name: "Burmese" },
-  { img: "birman-1.jpg", name: "Birman" },
-  { img: "tonkinese-1.jpg", name: "Tonkinese" },
-  { img: "ocicat-1.jpg", name: "Ocicat" },
-  { img: "selkirk-rex-1.jpg", name: "Selkirk Rex" },
-  { img: "ragamuffin-cat-1.jpg", name: "Ragamuffin" },  
-  { img: "american-curl-1.jpg", name: "American Curl" },
-  { img: "japanese-bobtail-1.jpg", name: "Japanese Bobtail" },
-  { img: "manx-1.jpg", name: "Manx" },
-  { img: "egyptian-mau-1.jpg", name: "Egyptian Mau" },
-  { img: "somali-1.jpg", name: "Somali" },
-  { img: "balinese-1.jpg", name: "Balinese" },
-  { img: "singapura-1.jpg", name: "Singapura" },
+  { img: "russian-blue-1.jpg", name: "Russian Blue", link: "https://www.catbreedslist.com/all-cat-breeds/russian-blue.html" },
+  { img: "siberian-1.jpg", name: "Siberian", link: "https://www.catbreedslist.com/all-cat-breeds/siberian.html" },
+  { img: "burmese-1.jpg", name: "Burmese", link:"https://www.catbreedslist.com/all-cat-breeds/burmese.html" },
+  { img: "birman-1.jpg", name: "Birman", link: 'https://www.catbreedslist.com/all-cat-breeds/birman.html' },
+  { img: "tonkinese-1.jpg", name: "Tonkinese", link: 'https://www.catbreedslist.com/all-cat-breeds/tonkinese.html' },
+  { img: "ocicat-1.jpg", name: "Ocicat", link: "https://www.catbreedslist.com/all-cat-breeds/ocicat.html" },
+  { img: "selkirk-rex-1.jpg", name: "Selkirk Rex", link: "https://www.catbreedslist.com/all-cat-breeds/selkirk-rex.html" },
+  { img: "ragamuffin-cat-1.jpg", name: "Ragamuffin", link: "https://www.catbreedslist.com/all-cat-breeds/ragamuffin-cat.html" },  
+  { img: "american-curl-1.jpg", name: "American Curl", link:"https://www.catbreedslist.com/all-cat-breeds/american-curl.html" },
+  { img: "japanese-bobtail-1.jpg", name: "Japanese Bobtail", link:"https://www.catbreedslist.com/all-cat-breeds/japanese-bobtail.html" },
+  { img: "manx-1.jpg", name: "Manx", link: "https://www.catbreedslist.com/all-cat-breeds/manx.html" },
+  { img: "egyptian-mau-1.jpg", name: "Egyptian Mau", link: "https://www.catbreedslist.com/all-cat-breeds/egyptian-mau.html" },
+  { img: "somali-1.jpg", name: "Somali", link: "https://www.catbreedslist.com/all-cat-breeds/somali.html" },
+  { img: "balinese-1.jpg", name: "Balinese", link: "https://www.catbreedslist.com/all-cat-breeds/balinese.html" },
+  { img: "singapura-1.jpg", name: "Singapura", link: "https://www.catbreedslist.com/all-cat-breeds/singapura.html" },
 ]
 
 const Gallery = [
@@ -65,9 +66,12 @@ const Gallery = [
   'Rectangle 12.png',
   'Rectangle 11.png',
 ]
-function Home() {
 
+
+function Home() {
+  const [query, setQuery] = useState("")
   const [open, setOpen] = React.useState(false);
+  
 
   const handleClick = () => {
     setOpen(!open);
@@ -154,19 +158,18 @@ function Home() {
           <Typography component="h1" sx={{ textAlign: "center", mb: 5,color: 'white', fontWeight: '100', fontSize: 24, fontFamily: "Century Gothic", px:{lg: 50, md: 2, xs: 2} }}>
             Uncover Cat Breeds: Explore the unique traits and captivating history of various feline companions, from majestic Maine Coons to elegant Siamese
           </Typography>
-          <Box sx={{bgcolor: "#0E3831", px: 3, position: "relative", mb: 5, py: 2, textAlign: "center"}}>
+          <Box sx={{bgcolor: "#0E3831", px: 3, position: "relative", mb: 5, py: 2, textAlign: "center", mx: {lg: 20, md: 2, xs: 2}}}>
             <Grid container spacing={0}>
-              <Grid item xs={12} md={12} lg={11}>
-                <input type='text' placeholder='Search...' style={{width: "100%", borderRadius: 30, backgroundColor: "white", margin: "auto", border: "none", fontSize: 24, color: "grey", padding: '5px 20px', display: 'inline'}}/>
-              </Grid>
-              <Grid item xs={12} md={12} lg={1}>
-                <Button sx={{bgcolor: "#265B52", color: 'white', borderRadius: 30, fontSize: 20, px: 3, margin: "0 auto", height: "100%", display: "inline-block"}}>Search</Button>
+              <Grid item xs={12} md={12} lg={12}>
+                <input type='text' onChange={event => setQuery(event.target.value)} placeholder='Search...' style={{width: "100%", borderRadius: 30, backgroundColor: "white", margin: "auto", border: "none", fontSize: 24, color: "grey", padding: '5px 20px', display: 'inline'}}/>
               </Grid>
             </Grid>
           </Box>
           <Grid container spacing={{lg: 8, md: 2, xs: 2}} sx={{px: {lg: 20, md: 3, xs: 3}, position: "relative"}}>
             {
-              Catbreeds.map((data)=> {
+              Catbreeds.filter((res) => {
+                return query === '' ? res : res.name.toString().toLowerCase().includes(query.toString().toLowerCase())
+            }).map((data)=> {
                   return(
                     <Grid item lg={12/5} md={4} xs={12}>
                       <Box height={200} sx={{width: "100%", background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("${require('../assets/cat-types/'+data.img)}")`, backgroundSize: 'cover', backgroundPosition: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '10px 10px 0 0'}}>
@@ -175,7 +178,7 @@ function Home() {
                         </Typography>
                       </Box>
                       <Box sx={{width: '100%', p: 2, bgcolor: "#D3EDDC"}}>
-                        <a href="#"><Typography component="h1" sx={{  color: '#616161', fontWeight: '100', fontSize: 16, fontFamily: "Inter", }}>
+                        <a href={data.link}><Typography component="h1" sx={{  color: '#616161', fontWeight: '100', fontSize: 16, fontFamily: "Inter", }}>
                           More info →
                         </Typography></a>
                       </Box>
@@ -320,6 +323,7 @@ function Home() {
 
         {/* ---------------FOOTER--------------- */}
         <Footer/>
+
     </div>
   )
 }

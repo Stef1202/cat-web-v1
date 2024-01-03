@@ -69,3 +69,7 @@ a {
 	font-weight: 100 !important;
 	font-size: 12px !important;
 }
+
+.MuiLink-root:hover{
+	text-decoration: underline !important;
+}
