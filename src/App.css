@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Changa:wght@300&family=Inter&family=Poppins&display=swap');
+
+
+
+body {
+    height: 100%;
+    background-color: #265B52;
+}
+a {
+    text-decoration: none;
+}
+
+.meow-bg::before{
+    background-image: url('../src/assets/bg/bg.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.15;
+    content: "";
+}
+
+.speech-bubble-blue {
+	position: relative;
+	background: #00aabb;
+	border-radius: 20px;
+}
+
+.speech-bubble-blue:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-left-color: #00aabb;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -15px;
+	margin-right: -30px;
+}
+
+.speech-bubble-white {
+	position: relative;
+	background: #ffffff;
+	border-radius: 20px;
+}
+
+.speech-bubble-white:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-right-color: #ffffff;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -15px;
+	margin-left: -30px;
+}
+
+.MuiLink-root{
+	text-decoration: none !important;
+	font-weight: 100 !important;
+	font-size: 12px !important;
+}
