@@ -169,7 +169,7 @@ function Home() {
             {
               Catbreeds.filter((res) => {
                 return query === '' ? res : res.name.toString().toLowerCase().includes(query.toString().toLowerCase())
-            }).map((data)=> {
+              }).map((data)=> {
                   return(
                     <Grid item lg={12/5} md={4} xs={12}>
                       <Box height={200} sx={{width: "100%", background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("${require('../assets/cat-types/'+data.img)}")`, backgroundSize: 'cover', backgroundPosition: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '10px 10px 0 0'}}>
@@ -192,7 +192,9 @@ function Home() {
           <Collapse in={open} timeout='auto' unmountOnExit>
           <Grid container spacing={{lg: 8, md: 2, xs: 2}} sx={{px: {lg: 20, md: 3, xs: 3}, position: "relative"}}>
             {
-              CatbreedsMore.map((data)=> {
+              CatbreedsMore.filter((res) => {
+                return query === '' ? res : res.name.toString().toLowerCase().includes(query.toString().toLowerCase())
+              }).map((data)=> {
                   return(
                     <Grid item lg={12/5} md={4} xs={12}>
                       <Box height={200} sx={{width: "100%", background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("${require('../assets/cat-types/'+data.img)}")`, backgroundSize: 'cover', backgroundPosition: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '10px 10px 0 0'}}>
